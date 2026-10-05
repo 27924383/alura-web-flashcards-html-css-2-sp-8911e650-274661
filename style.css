@@ -79,7 +79,7 @@ main {
 }
 
 .cartao:hover .cartao-interno,
-.cartao:focus-within .cartao-interno {
+.cartao.virado .cartao-interno {
     transform: rotateY(180deg);
 }
 
